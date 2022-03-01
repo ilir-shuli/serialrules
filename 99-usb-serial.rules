@@ -23,3 +23,7 @@ SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ATTRS{idVendor}=="0403", ATTRS{idProd
 SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6011", ATTRS{serial}=="FT0E2VEJ", ENV{.LOCAL_ifNum}=="02",  SYMLINK+="ttyUSB4002", GROUP="dialout", MODE="0660"
 SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6011", ATTRS{serial}=="FT0E2VEJ", ENV{.LOCAL_ifNum}=="03",  SYMLINK+="ttyUSB4003", GROUP="dialout", MODE="0660"
 
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6011", ATTRS{serial}=="FT5UJKVP", ENV{.LOCAL_ifNum}=="00",  SYMLINK+="ttyUSB4010", GROUP="dialout", MODE="0660"
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6011", ATTRS{serial}=="FT5UJKVP", ENV{.LOCAL_ifNum}=="01",  SYMLINK+="ttyUSB4011", GROUP="dialout", MODE="0660"
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6011", ATTRS{serial}=="FT5UJKVP", ENV{.LOCAL_ifNum}=="02",  SYMLINK+="ttyUSB4012", GROUP="dialout", MODE="0660"
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6011", ATTRS{serial}=="FT5UJKVP", ENV{.LOCAL_ifNum}=="03",  SYMLINK+="ttyUSB4013", GROUP="dialout", MODE="0660"
